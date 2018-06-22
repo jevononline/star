@@ -1,0 +1,65 @@
+@media only screen and (max-width: 500px){
+  .bottom-text{
+    bottom:0rem;
+  }
+  .swiper-container.index .page1{
+    background-image: url('../images/mobilebg_02.jpg');
+  }
+  .mobileen_01{
+    display: inline-block;
+  }
+  .en_01{
+    display: none;
+  }
+  .picList{
+    text-align: right;
+  }
+  .pcword{
+    display: none;
+  }
+  .swiper-container .page1 .left{
+    width:90%;
+  }
+  .mobileword{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .mobileword img{
+    width:94%;
+  }
+  .swiper-container .page1 .left .step1 img{
+    width:94%;
+    margin-right: 0%;
+  }
+  .swiper-container.index .swiper-pagination {
+    right: 15px !important;
+  }
+  .swiper-container .page1 .left {
+    height: 120px;
+  }
+  .normal-btn {
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .case-warp .swiper-container .swiper-wrapper .swiper-slide .banner .banner-words{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:350px;
+  }
+  .case-warp .swiper-container .swiper-wrapper .swiper-slide .banner{
+    height:350px;
+  }
+  .wrap .solution-main .solution-article{
+    text-align:center;
+  }
+  .about-title{
+    padding:.8rem 0rem .2rem 0rem
+  }
+}

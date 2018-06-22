@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+<head>
+<meta charset="UTF-8">
+<title>StarBrands</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/media.css">
+<script src="js/flexible.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/global.js"></script>
+<script src="js/starAnimate.js"></script>
+</head>
+<body>
+<div class="loading"><img src="images/Animation-for-S.gif" alt="loading" id="loading"></div>
+<div id="log"></div>
+<div id="menuButton">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+<div id="menuButtonClose"></div>
+<div id="menu">
+	<nav>
+				<div class="starMenu"><div><a href="index.html">WHAT WE DO</a></div></div>
+        <div class="starMenu"><div><a href="solutions.html">OUR SOLUTIONS</a></div></div>
+        <div class="starMenu"><div><a href="case.html">CASE STUDIES</a></div></div>
+        <div class="starMenu"><div><a href="about.html">About us</a></div></div>
+        <div class="starMenu"><div><a href="contact.html">Contact</a></div></div>
+    </nav>
+</div>
+<div id="inner-logo"></div>
+<div class="wrap black-warp case-warp lineheight-center">
+	<div class="swiper-container case">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide">
+	        	<div class="banner" style="background-image:url('images/banner.png');background-size:cover;background-position:center center;">
+	        		<div class="banner-words">
+	        			<span class="banner-text">YOUR BRAND?</span>
+	        			<div class="banner-btn"><a href="contact.html">CONTACT US</a></div>
+	        		</div>
+	        	</div>
+	        </div>
+	        <div class="swiper-slide">
+						<div class="banner" style="background-image:url('images/per.png');background-size:cover;background-position:center center;">
+	        		<div class="banner-words">
+	        			<div class="banner-text">
+	        				<img class="per" src="images/perword.png" alt="">
+	        			</div>
+	        			<div class="banner-btn"><a href="caseDetails.html">DISCOVER</a></div>
+	        		</div>
+        		</div>
+	        </div>
+					<div class="swiper-slide">
+						<div class="banner" style="background-image:url('images/cla.png');background-size:cover;background-position:center center;">
+	        		<div class="banner-words">
+	        			<div class="banner-text">
+	        				<img class="cla" src="images/claword.png" alt="">
+	        			</div>
+	        			<div class="banner-btn"><a href="caseCla.html">DISCOVER</a></div>
+	        		</div>
+        		</div>
+	        </div>
+					<div class="swiper-slide">
+						<div class="banner" style="background-image:url('images/moro.png');background-size:cover;background-position:center center;">
+	        		<div class="banner-words">
+	        			<div class="banner-text">
+	        				<img class="moro" src="images/moroword.png" alt="">
+	        			</div>
+	        			<div class="banner-btn"><a href="caseMoro.html">DISCOVER</a></div>
+	        		</div>
+        		</div>
+	        </div>
+					<div class="swiper-slide">
+						<div class="banner" style="background-image:url('images/benifit.png');background-size:cover;background-position:center right;">
+	        		<div class="banner-words">
+	        			<div class="banner-text">
+	        				<img class="ben" src="images/benifitword.png" alt="">
+	        			</div>
+	        			<div class="banner-btn"><a href="caseBen.html">DISCOVER</a></div>
+	        		</div>
+        		</div>
+	        </div>
+	    </div>
+	</div>
+<div class="swiper-pagination"></div>
+</div>
+<div id="page-control">
+	<div id="prev">Previous</div>
+	<div id="next">Next</div>
+</div>
+
+<script src="js/swiper.min.js"></script>
+<script>
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true,
+    initialSlide :0,
+    pagination: '.swiper-pagination',
+    slidesPerView: 3,
+    paginationClickable: true,
+    azyLoading : true,
+    slideToClickedSlide:false,
+		mousewheelControl : true,
+		breakpoints: {
+		    1200: {
+		      slidesPerView: 1,
+		      spaceBetween: 10
+		    }
+		}
+  })
+	$('#prev').click(function(){
+		mySwiper.slidePrev();
+	})
+	$('#next').click(function(){
+		mySwiper.slideNext();
+	})
+	$(window).resize(function(){
+		var width = $(window).width();
+		if(width < 1200){
+			mySwiper.slideTo(2, 100, false);
+		}
+	})
+  </script>
+
+</body>
+</html>

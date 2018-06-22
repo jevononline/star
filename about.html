@@ -1,0 +1,665 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+<head>
+<meta charset="UTF-8">
+<title>StarBrands</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/about.css">
+<script src="js/flexible.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/global.js"></script>
+<script src="js/starAnimate.js"></script>
+</head>
+<style>
+	.swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet{
+		margin:7px 0px;
+	}
+</style>
+<body>
+<div class="loading"><img src="images/Animation-for-S.gif" alt="loading" id="loading"></div>
+<div id="log"></div>
+<div id="menuButton">
+	<span></span>
+	<span></span>
+	<span></span>
+	<span></span>
+</div>
+<div id="menuButtonClose"></div>
+<div id="menu">
+	<nav>
+				<div class="starMenu"><div><a href="index.html">WHAT WE DO</a></div></div>
+        <div class="starMenu"><div><a href="solutions.html">OUR SOLUTIONS</a></div></div>
+        <div class="starMenu"><div><a href="case.html">CASE STUDIES</a></div></div>
+        <div class="starMenu"><div><a href="about.html">About us</a></div></div>
+        <div class="starMenu"><div><a href="contact.html">Contact</a></div></div>
+    </nav>
+</div>
+<div id="inner-logo"></div>
+<div class="swiper-container index">
+	<div class="swiper-wrapper">
+		<!-- page -->
+		<div class="swiper-slide page0 stop-swiping">
+			<div class="wrap grey-warp3 index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy">
+						<div class="history_hd">
+							<div class="history_hd_tit animate1">
+								<img src="images/title_04.png" alt="title" class="titleImg" />
+							</div>
+							<div class="history_hd_bd animate2">
+								<div>Star Brands Asia was founded in 2009 to launch and expand the best of niche beauty brands in Asian markets. Financially successful, the consultancy saw strong brand sales performance, and received strong reviews from a credible client brand list.  The vision of the company has not changed from the beginning, albeit now the company is focused on China solely.</div>
+							</div>
+						</div>
+						<div class="vision animate3">
+							Our Vision
+						</div>
+						<div class="history_bd">
+							<div class="history_bd_ft col-lg-4 animate4">
+								<div class="txt_tp short">To provide exciting new and
+									different choices to Chinese
+									beauty care consumers
+								</div>
+								<div class="txt_bt">FREEDOMIZATION <br/> OF BRAND CHOICE
+								</div>
+							</div>
+							<div class="history_bd_cn eye col-lg-4 animate5">
+								<img class="history_eye" src="./images/eye.png"/>
+							</div>
+							<div class="history_bd_la col-lg-4  animate6">
+								<div class="txt_tp long">To enable independent brands to succeed in China by removing the obstacles, providing comprehensive support, and driving sales</div>
+								<div class="txt_bt">YOUR VIRTUAL <br/> SALES & MARKETING TEAM</div>
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="bottom-text" onclick="">
+            <a href="javascript:void(0)">Learn More</a>
+        </div>
+			</div>
+		</div>
+		<!-- page1 -->
+		<!-- <div class="swiper-slide page1 stop-swiping">
+			<div class="wrap grey-warp3 index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy">
+						<div class="history_hd animate1">
+							<div class="history_hd_bd" id="per_title">
+							<div>Brands working with SBA have seen substantial increases in sales.</div></div>
+						</div>
+						<div class="history_bd per_cen">
+							<div class="history_bd_ft col-lg-4 ">
+								<div class="his_per"><div class="animate2">288%</div></div>
+								<div class="line"></div>
+								<div class="his_per">
+									<img class="barImg" src="images/benefit.png"/>
+								</div>
+							</div>
+							<div class="history_bd_la col-lg-4">
+								<div class="his_per"><div class="step animate3">14%</div></div>
+								<div class="line"></div>
+								<div class="his_per">
+									<img class="barImg" src="images/perricone.png"/>
+								</div>
+							</div>
+							<div class="history_bd_la col-lg-4">
+								<div class="his_per"><div class="step animate4">136%</div></div>
+								<div class="line"></div>
+								<div class="his_per">
+									<img class="barImg" src="images/alterna.png"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-text" onclick="">
+					<a href="javascript:void(0)">Company History</a>
+				</div>
+				<div class="bottom-text" onclick="">
+					<a href="javascript:void(0)">learn more</a>
+				</div>
+			</div>
+		</div> -->
+		<!-- page2 -->
+		<div class="swiper-slide page2 stop-swiping">
+			<div class="wrap gray-wrap index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy minheight">
+						<div class="history_hd animate1">
+							<div class="history_hd_tit">
+								<img src="images/ourteam.png" style="width:auto;" alt="title" class="titleImg">
+							</div>
+							<div class="history_hd_line"><div class="his_line"></div></div>
+						</div>
+						<div class="teamFirst animate2">
+							<div class="col-lg-2 teamava">
+								<img src="images/ava1.png" alt="">
+							</div>
+							<div class="col-lg-10 team">
+								<div class="team-title">Rob Robertson</div>
+								<div class="team-desc">Founder & CEO</div>
+								<div class="team-content">Rob has dedicated his career to successfully launching international consumer brand businesses in Mainland China and across the Asia zone. Fluent in Mandarin, Rob has worked professionally in the China for 13 out of the last 30 years. First as an import-export entrepreneur, then as a brand manager for P&G, then as marketing director for Clairol, then as general manager for L'Oréal's salon brand Matrix, then as the founder and CEO of Star Brands Asia, and finally most recently as the general manager of LVMH’s makeup brand Benefit Cosmetics, Rob has deep operational experience across all channels and all categories of beauty. </div>
+							</div>
+						</div>
+						<div class="history_bd margintop20">
+							<div class="history_bd_cn col-lg-4 animate3">
+								<div class="history_hd ">
+									<div class="col-lg-6 teamava">
+										<img src="images/ava2.png" alt="">
+									</div>
+									<div class="col-lg-6 team">
+										<div class="team-title">Jean Yin</div>
+										<div class="team-desc">CFO</div>
+										<div class="team-content">Jean has developed her financial acumen through a variety of assignments including acting as Divisional Controller for LVMH Perfumes & Cosmetics Division.  Since then, she has cofounded and developed two jewelry brands whose primary sales channels are online.</div>
+									</div>
+								</div>
+							</div>
+							<div class="history_bd_cn col-lg-4 animate4">
+								<div class="history_hd">
+									<div class="col-lg-6 teamava">
+										<img src="images/ava3.png" alt="">
+									</div>
+									<div class="col-lg-6 team">
+										<div class="team-title">Linda Hu</div>
+										<div class="team-desc">General Manager</div>
+										<div class="team-content">Starting her career as a product director for L'Oréal, Linda has led total launches for several indie beauty brands including Davines, Balmain and Caswell-Massey. She has been with SBA since 2009. </div>
+									</div>
+								</div>
+							</div>
+							<div class="history_bd_cn col-lg-4 animate5">
+								<div class="history_hd">
+									<div class="col-lg-6 teamava">
+										<img src="images/ava4.png" alt="">
+									</div>
+									<div class="col-lg-6 team">
+										<div class="team-title">Maya Wang</div>
+										<div class="team-desc">Product Manager</div>
+										<div class="team-content">Maya began as a Management Trainee with Benefit Cosmetics and was promoted to oversee Sephora business and Trade Marketing based on outstanding work on the Brand.  She handles business development and is currently focused on the launch of MORPHE for SBA.  </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-text" onclick="" >
+					<a href="javascript:void(0)">Company History</a>
+				</div>
+				<div class="bottom-text" onclick="">
+					<a href="javascript:void(0)">Strategic Partners</a>
+				</div>
+			</div>
+		</div>
+		<!-- page3 -->
+		<div class="swiper-slide page3 stop-swiping">
+			<div class="wrap gray-wrap index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy minheight">
+						<div class="history_hd animate1">
+							<div class="history_hd_tit">
+								<img src="images/strategic.png" style="width:auto;" alt="title" class="titleImg">
+							</div>
+							<div class="history_hd_line"><div class="his_line"></div></div>
+						</div>
+						<div class="staContent">
+							<div class="col-lg-5 staimg ">
+								<img class="animate2" src="images/teams.png" alt="">
+							</div>
+							<div class="col-lg-7 stalogo">
+								<img class="animate3" src="images/newlogo.png" alt="">
+							</div>
+						</div>
+						<div class="history_bd">
+							<div class="history_bd_cn animate4">
+								<div class="history_hd teamContent">
+									<div class="col-lg-5"></div>
+									<div class="col-lg-7 straword">
+										<div class="straword-content">D1M eCommerce Technology is a leading eCommerce & digital retail service provider for international brand-owners operating in China. The company offers a full range of digital retail services and specializes in eCommerce consulting, IT development and channel operation.  D1M is expert in luxury, cosmetics, fashion, baby and FMCG categories. Backed by a talented team, D1M is now serving over 100 international and local brands.  With professional skills, insightful understanding and rich experience, D1M provides diversified omni-channel service for brands that want to succeed.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-text" onclick="" >
+					<a href="javascript:void(0)">Our Team</a>
+				</div>
+				<div class="bottom-text" onclick="">
+					<a href="javascript:void(0)">Past & Current Clients</a>
+				</div>
+			</div>
+		</div>
+		<!-- page4 -->
+		<div class="swiper-slide page4 stop-swiping">
+			<div class="wrap gray-wrap index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy minheight">
+						<div class="history_hd animate1">
+							<div class="history_hd_tit">
+								<img src="images/pastimg.png" style="width:auto;" alt="title" class="titleImg">
+							</div>
+							<div class="history_hd_line"><div class="his_line"></div></div>
+						</div>
+						<div class="pastContent animate2">
+							Since 2009 Star Brands Asia has been honored to work with many outstanding and unique independent beauty care brands, a selection of which are shown below.
+						</div>
+						<div class="history_bd">
+							<div class="history_bd_cn">
+								<div class="history_hd teamContent">
+									<ul class="pastLists">
+										<li class="pastItem animate3">
+											<img src="images/brand1.png" alt="">
+										</li>
+										<li class="pastItem animate4">
+											<img src="images/brand2.png" alt="">
+										</li>
+										<li class="pastItem animate5">
+											<img src="images/brand3.png" alt="">
+										</li>
+										<li class="pastItem animate6">
+											<img src="images/brand4.png" alt="">
+										</li>
+										<li class="pastItem animate7">
+											<img src="images/brand5.png" alt="">
+										</li>
+										<li class="pastItem animate8">
+											<img src="images/brand6.png" alt="">
+										</li>
+										<li class="pastItem animate9">
+											<img src="images/brand7.png" alt="">
+										</li>
+										<li class="pastItem animate10">
+											<img src="images/brand8.png" alt="">
+										</li>
+										<li class="pastItem animate11">
+											<img src="images/brand9.png" alt="">
+										</li>
+										<li class="pastItem animate12">
+											<img src="images/brand10.png" alt="">
+										</li>
+										<li class="pastItem animate13">
+											<img src="images/brand11.png" alt="">
+										</li>
+										<!--<li class="pastItem animate14">-->
+										<!--	<img src="images/brand12.png" alt="">-->
+										<!--</li>-->
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-text" onclick="" >
+					<a href="javascript:void(0)">Strategic Partner</a>
+				</div>
+				<div class="bottom-text" onclick="">
+					<a href="javascript:void(0)">Company Values</a>
+				</div>
+			</div>
+		</div>
+		<!-- page5 -->
+		<div class="swiper-slide page5 stop-swiping">
+			<div class="wrap yellow-wrap index-warp">
+				<div class="history_box lineheight-center">
+					<div class="historyBy">
+						<div class="history_hd animate1">
+							<div class="history_hd_tit">
+								<img src="images/title_06.png" alt="title" class="titleImg">
+							</div>
+							<div class="history_hd_line"><div class="his_line"></div></div>
+						</div>
+						<div class="history_bd marginbdTop">
+							<div class="history_bd_ft col-lg-4">
+								<div class="txt_tp white">
+									<div class="step animate2 txtdivcenter">
+										<div class="ui_title">PERFORMANCE</div>
+										<div class="ui_bd">Our results are consistently outstanding and we intend to keep it that way.</div>
+									</div>
+								</div>
+								<div class="txt_tp white">
+									<div class="step animate3 txtdivcenter">
+										<div class="ui_title">PASSION</div>
+										<div class="ui_bd">We are passionately committed to expressing the uniqueness of each client brand and connecting it to the right target consumer!</div>
+									</div>
+								</div>
+							</div>
+							<div class="history_bd_cn eye col-lg-4 animate4">
+								<img class="value_dim" src="./images/diamond.png"/>
+							</div>
+							<div class="history_bd_la col-lg-4">
+								<div class="txt_tp white">
+									<div class="step animate5 txtdivcenter">
+										<div class="ui_title">PERSPECTIVE</div>
+										<div class="ui_bd">We dig deeper and think more creatively in order to formulate and implement the best unique approaches in the changing China market. </div>
+									</div>
+								</div>
+								<div class="txt_tp white">
+									<div class="step animate6 txtdivcenter">
+										<div class="ui_title">PROFESSIONALISM
+										</div>
+										<div class="ui_bd">We adhere to the highest professional and ethical standards based on decades of experience in best-in-class onsumer corporations.</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="top-text" onclick="" >
+					<a href="javascript:void(0)">Past & Current Clients</a>
+				</div>
+				<div class="bottom-text" onclick="">
+					<a href="javascript:void(0)">The Star Brands Asia Difference</a>
+				</div>
+			</div>
+		</div>
+		<!-- page6 -->
+		<div class="swiper-slide page6 stop-swiping">
+			<div class=" yellow-wrap wrap lineheight-center text-center">
+				<div class="diff">
+					<div class="diff-container">
+						<div class="text-center">
+							<img src="images/title_05.png" alt="title" class="title-03" />
+						</div>
+						<ul class="clearfix">
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate1">
+								<img src="images/diff_01.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Extensive</span> experience on the brand </p>
+										side <span class="active">with best-in-class corporations</span>
+
+								</div>
+							</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate2">
+								<img src="images/diff_02.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Successful results with dozens of</span></p>
+									<p>independent brands</p>
+
+								</div>
+							</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate3">
+								<img src="images/diff_03.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Outstanding reviews</span></p>
+									<p>from past clients</p>
+								</div>
+							</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate4">
+								<img src="images/diff_04.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Hands-on</span> </p>
+									<p>operational performance across all</p>
+									<p>channels <span class="active">from cross border to ecom to</span></p>
+									<p><span class="active">Sephora to boutiques to spa and to salon</span></p>
+
+								</div>
+							</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate5">
+								<img src="images/diff_05.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Have engaged</span></p>
+									<p>all categories <span class="active">within beauty care.</span></p>
+								</div>
+							</div>
+							</li>
+							<li class="col-lg-4 col-md-6 col-sm-12">
+								<div class="step animate6">
+								<img src="images/diff_06.png"  alt="图片" class="diffImg" />
+								<div class="text">
+									<p><span class="active">Great results in terms of managing</span></p>
+									<p>Chinese teams.</p>
+								</div>
+							</div>
+							</li>
+							<!-- <div id="big-word">We earn it!</div> -->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="top-text" onclick="">
+				<a href="javascript:void(0)">Company Values</a>
+			</div>
+		</div>
+	</div>
+	<div class="swiper-pagination"></div>
+</div>
+<!-- <script src="js/slidePage.min.js"></script> -->
+<script>
+  // 判断尺寸
+  $(function(){
+		var isMove = true;
+		var isTouch = false;
+  	var bodyWidth = document.body.clientWidth;
+  	if(bodyWidth < 768){
+  		isMove = false;
+			isTouch = true;
+  	}
+		var mySwiper = new Swiper ('.swiper-container', {
+	    direction: 'vertical',
+	    loop: false,
+	    pagination: '.swiper-pagination',
+			speed:1000,
+			paginationClickable :isMove,
+			mousewheelControl : false,
+			noSwiping:isTouch,
+			noSwipingClass:'stop-swiping',
+	    onSlideChangeStart: function(swiper){
+		    switch(swiper.activeIndex){
+		    	// case 0:
+		    	// 	setTimeout(function(){
+		    	// 		$('.page0 .animate1').slideDown('slow');
+		    	// 	},1000)
+		    	// 	setTimeout(function(){
+		    	// 		$('.page0 .animate2').slideDown('slow');
+		    	// 	},1600)
+		    	// 	setTimeout(function(){
+		    	// 		$('.page0 .animate3').slideDown('slow');
+		    	// 	},2200)
+		    	// 	break;
+					case 0:
+						setTimeout(function(){
+							$('.page0 .animate1').addClass('animate');
+						},1400)
+						setTimeout(function(){
+							$('.page0 .animate2').addClass('animate');
+						},1800)
+						setTimeout(function(){
+							$('.page0 .animate3').addClass('animate');
+						},2200)
+						setTimeout(function(){
+							$('.page0 .animate4').addClass('animate');
+						},2600)
+						setTimeout(function(){
+							$('.page0 .animate5').addClass('animate');
+						},3000)
+						setTimeout(function(){
+							$('.page0 .animate6').addClass('animate');
+						},3400)
+		    		break;
+		    	// case 1:
+		    	// 	setTimeout(function(){
+		    	// 		$('.page1 .animate1').addClass('animate');
+		    	// 	},300)
+		    	// 	setTimeout(function(){
+		    	// 		$('.page1 .animate2').addClass('animate');
+		    	// 	},900)
+		    	// 	setTimeout(function(){
+		    	// 		$('.page1 .animate3').addClass('animate');
+		    	// 	},1500)
+		    	// 	setTimeout(function(){
+		    	// 		$('.page1 .animate4').addClass('animate');
+		    	// 	},2100)
+		    	// 	break;
+		    	case 1:
+		    		setTimeout(function(){
+		    			$('.page2 .animate1').addClass('animate');
+		    		},300)
+		    		setTimeout(function(){
+		    			$('.page2 .animate2').addClass('animate');
+		    		},900)
+		    		setTimeout(function(){
+		    			$('.page2 .animate3').addClass('animate');
+		    		},1500)
+		    		setTimeout(function(){
+		    			$('.page2 .animate4').addClass('animate');
+		    		},2000)
+		    		setTimeout(function(){
+		    			$('.page2 .animate5').addClass('animate');
+		    		},2500)
+		    		setTimeout(function(){
+		    			$('.page2 .animate6').addClass('animate');
+		    		},3000)
+		    		break;
+	    		case 2:
+		    		setTimeout(function(){
+		    			$('.page3 .animate1').addClass('animate');
+		    		},300)
+		    		setTimeout(function(){
+		    			$('.page3 .animate2').addClass('animate');
+		    		},900)
+		    		setTimeout(function(){
+		    			$('.page3 .animate3').addClass('animate');
+		    		},1500)
+		    		setTimeout(function(){
+		    			$('.page3 .animate4').addClass('animate');
+		    		},2000)
+		    		setTimeout(function(){
+		    			$('.page3 .animate5').addClass('animate');
+		    		},2500)
+		    		setTimeout(function(){
+		    			$('.page3 .animate6').addClass('animate');
+		    		},3000)
+		    		break;
+					case 3:
+		    		setTimeout(function(){
+		    			$('.page4 .animate1').addClass('animate');
+		    		},300)
+		    		setTimeout(function(){
+		    			$('.page4 .animate2').addClass('animate');
+		    		},900)
+		    		setTimeout(function(){
+		    			$('.page4 .animate3').addClass('animate');
+		    		},1500)
+		    		setTimeout(function(){
+		    			$('.page4 .animate4').addClass('animate');
+		    		},1700)
+		    		setTimeout(function(){
+		    			$('.page4 .animate5').addClass('animate');
+		    		},1900)
+		    		setTimeout(function(){
+		    			$('.page4 .animate6').addClass('animate');
+		    		},2100)
+						setTimeout(function(){
+		    			$('.page4 .animate7').addClass('animate');
+		    		},2200)
+						setTimeout(function(){
+		    			$('.page4 .animate8').addClass('animate');
+		    		},2400)
+						setTimeout(function(){
+		    			$('.page4 .animate9').addClass('animate');
+		    		},2600)
+						setTimeout(function(){
+		    			$('.page4 .animate10').addClass('animate');
+		    		},2800)
+						setTimeout(function(){
+		    			$('.page4 .animate11').addClass('animate');
+		    		},3000)
+						setTimeout(function(){
+		    			$('.page4 .animate12').addClass('animate');
+		    		},3200)
+						setTimeout(function(){
+		    			$('.page4 .animate13').addClass('animate');
+		    		},3400)
+						setTimeout(function(){
+		    			$('.page4 .animate14').addClass('animate');
+		    		},3600)
+		    		break;
+					case 4:
+		    		setTimeout(function(){
+		    			$('.page5 .animate1').addClass('animate');
+		    		},300)
+		    		setTimeout(function(){
+		    			$('.page5 .animate2').addClass('animate');
+		    		},900)
+		    		setTimeout(function(){
+		    			$('.page5 .animate3').addClass('animate');
+		    		},1500)
+		    		setTimeout(function(){
+		    			$('.page5 .animate4').addClass('animate');
+		    		},2000)
+		    		setTimeout(function(){
+		    			$('.page5 .animate5').addClass('animate');
+		    		},2500)
+		    		setTimeout(function(){
+		    			$('.page5 .animate6').addClass('animate');
+		    		},3000)
+		    		break;
+					case 5:
+						setTimeout(function(){
+							$('.page6 .animate1').addClass('animate');
+						},300)
+						setTimeout(function(){
+							$('.page6 .animate2').addClass('animate');
+						},900)
+						setTimeout(function(){
+							$('.page6 .animate3').addClass('animate');
+						},1500)
+						setTimeout(function(){
+							$('.page6 .animate4').addClass('animate');
+						},2000)
+						setTimeout(function(){
+							$('.page6 .animate5').addClass('animate');
+						},2500)
+						setTimeout(function(){
+							$('.page6 .animate6').addClass('animate');
+						},3000)
+						break;
+		    }
+	    }
+	  })
+		$('.top-text').click(function(){
+			mySwiper.slidePrev();
+		})
+		$('.bottom-text').click(function(){
+			mySwiper.slideNext();
+		})
+		setTimeout(function(){
+			$('.page0 .animate1').addClass('animate');
+		},1400)
+		setTimeout(function(){
+			$('.page0 .animate2').addClass('animate');
+		},1800)
+		setTimeout(function(){
+			$('.page0 .animate3').addClass('animate');
+		},2200)
+		setTimeout(function(){
+			$('.page0 .animate4').addClass('animate');
+		},2600)
+		setTimeout(function(){
+			$('.page0 .animate5').addClass('animate');
+		},3000)
+		setTimeout(function(){
+			$('.page0 .animate6').addClass('animate');
+		},3400)
+  })
+  </script>
+</body>
+
+</html>

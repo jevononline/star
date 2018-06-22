@@ -1,0 +1,217 @@
+.wrap.gray-wrap{
+  background-image:url('../images/newBg.png');
+}
+
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-size:13px;
+  font-family: 'avenirNext-Regular';
+}
+.team .team-title{
+  font-size:.15rem;
+  color:rgb(192, 231, 231);
+  font-family: 'avenirNext-Bold';
+
+}
+.team .team-desc{
+  font-size:.1rem;
+  color:rgb(192, 231, 231);
+  padding:.1rem 0rem;
+  font-family: 'avenirNext-DemiBold';
+}
+.team .team-content{
+  text-align: left;
+  line-height:.16rem;
+}
+.teamContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.staContent{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.staContent .staimg{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.staimg img{
+  width:80%;
+}
+.stalogo img{
+  width:1.5rem;
+}
+.straword{
+  font-size:.1rem;
+  font-family: 'avenirNext-Regular';
+  text-align: left;
+}
+.straword .straword-content{
+  line-height:.2rem;
+
+}
+.pastContent{
+  margin:0 auto;
+  width:70%;
+  font-size:.1rem;
+  font-family: 'avenirNext-Regular';
+  text-align:center;
+  padding:.1rem 0rem .15rem 0rem;
+}
+.pastLists{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center
+}
+.pastLists .pastItem{
+  width:25%;
+  padding:.27rem 0rem;
+}
+.pastLists .pastItem img{
+  height:.25rem;
+}
+.pastLists .pastItem:nth-child(1) img,.pastLists .pastItem:nth-child(5) img,.pastLists .pastItem:nth-child(9) img{
+  height:.15rem;
+}
+.pastLists .pastItem:nth-child(3) img,.pastLists .pastItem:nth-child(6) img{
+  height:.2rem;
+}
+.pastLists .pastItem:nth-child(7) img,.pastLists .pastItem:nth-child(8) img{
+  height:.13rem;
+}
+.pastLists .pastItem:nth-child(11) img,.pastLists .pastItem:nth-child(12) img{
+  height:.4rem;
+}
+.minheight{
+
+}
+.teamFirst{
+  width:100%;
+}
+.teamFirst .teamava{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.teamava img{
+  width:.8rem;
+}
+.vision{
+  font-size: 0.09rem;
+  font-family: 'ButlerMedium';
+  color: #b0a399;
+  width:100%;
+  text-align: center;
+  padding:0rem 0rem .15rem 0rem;
+}
+@media screen and (max-width:1200px){
+  .team{
+    align-items: center;
+  }
+}
+@media screen and (max-width:768px){
+  .team .team-content {
+    text-align: center;
+    line-height: .26rem;
+  }
+  .teamava{
+    padding:.15rem 0rem;
+  }
+  .team .team-title {
+    font-size: .2rem;
+  }
+  .staContent{
+    flex-direction: column;
+  }
+  .staContent .staimg{
+    padding:.15rem 0rem;
+  }
+  .straword .straword-content{
+    font-size:.2rem;
+    line-height:.28rem;
+    text-align: center
+  }
+  .stalogo{
+    padding:.15rem 0rem;
+  }
+  .stalogo img {
+    width: 2.5rem;
+  }
+  .pastLists .pastItem img{
+    height:.45rem;
+  }
+  .pastLists .pastItem:nth-child(3) img, .pastLists .pastItem:nth-child(6) img {
+    height: .4rem;
+  }
+  .pastLists .pastItem:nth-child(1) img, .pastLists .pastItem:nth-child(5) img, .pastLists .pastItem:nth-child(9) img {
+    height: .35rem;
+  }
+  .pastLists .pastItem:nth-child(11) img, .pastLists .pastItem:nth-child(12) img {
+    height: .8rem;
+  }
+  .pastLists .pastItem:nth-child(7) img, .pastLists .pastItem:nth-child(8) img {
+    height: .23rem;
+  }
+  .pastLists .pastItem{
+    width:50%;
+    padding:.25rem 0rem;
+  }
+}
+@media screen and (max-width:500px){
+  .historyBy .txt_bt {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .team .team-title {
+    font-size: 16px;
+  }
+  .team .team-desc {
+    font-size: 13px;
+  }
+  .team .team-content {
+    text-align: center;
+    line-height: 18px;
+  }
+  .teamava img {
+    width: 80px;
+  }
+  .historyBy .history_bd_cn {
+    margin-top: 0px;
+  }
+  .straword .straword-content{
+    line-height:20px;
+    font-size:13px;
+  }
+  .pastLists .pastItem {
+    width: 50%;
+    padding: 15px 0rem;
+  }
+  .historyBy .history_bd_cn {
+    margin: 20px 0px;
+  }
+  .teamava {
+    padding: 10px 0px;
+  }
+  .pastContent {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 13px;
+    font-family: 'avenirNext-Regular';
+    text-align: center;
+    padding: 8px 0rem 12px 0rem;
+  }
+  .vision{
+    font-size:15px;
+  }
+}

@@ -1,0 +1,188 @@
+.contact{
+  width:100%;
+  height:100%;
+  background: url('../images/bg_02.png') no-repeat;
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'avenir-book';
+}
+.contact .contact-content{
+  width:80%;
+  height:50%;
+}
+.contact .contact-title img{
+  width:4.5rem;
+}
+.contact .contact-list{
+  padding:0.25rem 0rem 0rem 2.5rem;
+}
+.contact .contact-list li{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding:20px 0px;
+  color:#fff;
+  font-size: .105rem;
+  line-height: 1.2;
+}
+.contact .contact-list img{
+  width:.125rem;
+  margin-right:.125rem;
+}
+.contact .contact-list .imgp{
+  width:.110rem;
+}
+.contact-list .contact-btn a{
+  display: inline-block;
+  width:1.2rem;
+  margin-top:.3rem;
+}
+.contact-list .contact-btn a img{
+  width:100%;
+}
+.contact-title .mcontitleimg{
+  display: none;
+}
+@media screen and (max-width:1350px){
+  .contact .contact-title img{
+    width:4.5rem;
+  }
+
+  .contact .contact-list li{
+    font-size:16px;
+  }
+  .contact .contact-list img{
+    width:20px;
+    margin-right:20px;
+  }
+  .contact .contact-list .imgp{
+    width:15px;
+  }
+  .contact-list .contact-btn a{
+    width:220px;
+  }
+}
+@media screen and (max-width:992px){
+  .contact .contact-title img{
+    width:5.5rem;
+  }
+  .contact .contact-list li{
+    font-size:15px;
+  }
+  .contact .contact-list img{
+    width:17px;
+    margin-right:17px;
+  }
+  .contact .contact-list .imgp{
+    width:13px;
+  }
+  .contact-list .contact-btn a{
+    width:200px;
+  }
+}
+@media screen and (max-width:768px){
+  .contact{
+    background: url('../images/mobilebg_02.jpg') no-repeat;
+    background-size: cover;
+  }
+  .contact .contact-content{
+    width:90%;
+    height:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+  }
+  .contact .contact-title{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-title .contitleimg{
+    display: none;
+  }
+  .contact-title .mcontitleimg{
+    display: inline-block;
+  }
+  .contact .contact-title img{
+    width:90%;
+  }
+  .contact .contact-list{
+    padding:0px 0 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .contact-list li{
+    width:70%;
+    font-size:17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .contact .contact-list img{
+    width:17px;
+    margin-right:17px;
+  }
+  .contact-list .contact-btn{
+    margin-top:28px;
+  }
+
+  .contact .contact-list .imgp{
+    width:13px;
+  }
+  .contact-list .contact-btn a{
+    width:150px;
+  }
+}
+@media screen and (max-width:500px){
+  .contact .contact-title img{
+    width:100%;
+  }
+  .contact .contact-content{
+    height:60%;
+  }
+  .contact .contact-list{
+    padding:0px 0px 0px 0px;
+  }
+  .contact .contact-list li{
+    width:100%;
+    font-size:15px;
+  }
+  .contact-list .contact-btn a{
+    width:150px;
+  }
+  .contact .contact-content{
+    justify-content: flex-end;
+    width:80%;
+  }
+  .contact .contact-title{
+    margin-top:20px;
+  }
+  .contact .contact-list{
+    align-items: flex-start;
+  }
+  .contact .contact-list li:nth-child(1){
+    margin-top:10px;
+  }
+  .contact .contact-list li{
+    padding:15px 0px;
+  }
+  .contact-list .contact-btn{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top:20px;
+  }
+  .contact .contact-list img{
+    width:14px;
+    margin-right:16px;
+  }
+}
